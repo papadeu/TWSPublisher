@@ -8,7 +8,8 @@ All communication between Publisher and TWS occurs locally.
 
 Publisher does not execute any transations on given account ('read only').
 
-Prerequisities for using:
+#Prerequisities for using:
+
 .NET8 Framework installed on local machine, please take ".NET Desktop Runtime" option: download from here: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
 Existing discord's channel web-hook, example: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
@@ -16,6 +17,7 @@ Existing discord's channel web-hook, example: https://support.discord.com/hc/en-
 For deploying as customer (not developer) copy existing 2 files to your local windows folder and start TwsPublisher.exe
 
 TWS must be configured for using API.
+
 1.In TWS go to “Global Configuration”, API, settings and check "enable activex and socket clients" and alco check "read-only API"
 
 2. Note the Socket port configured. I.e 7496 and take this value into corresponding TwsPublisher.exe field
