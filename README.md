@@ -8,7 +8,7 @@ All communication between Publisher and TWS occurs locally.
 
 Publisher does not execute any transations on given account ('read only').
 
-#Prerequisities for using:
+Prerequisities for using:
 
 .NET8 Framework installed on local machine, please take ".NET Desktop Runtime" option: download from here: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
