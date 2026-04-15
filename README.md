@@ -2,6 +2,8 @@ This application monitors given TWS account in real time and sends a message to 
 
 A local instance of IBKR TWS must be running on the same machine where this application is used.
 
+It doesn't influence TWS performance in any way, due to usage of API.
+
 This application uses TWS in 'read only API' mode and doesn't use any personal account information except position monitoring.
 
 All communication between Publisher and TWS occurs locally.
