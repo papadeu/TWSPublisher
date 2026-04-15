@@ -2,7 +2,7 @@ This application monitors given TWS account in real time and sends a message to 
 
 A local instance of IBKR TWS must be running on the same machine where this application is used.
 
-This application uses TWS in 'read only modus' and doesn't use any personal account information except position monitoring.
+This application uses TWS in 'read only API' mode and doesn't use any personal account information except position monitoring.
 
 All communication between Publisher and TWS occurs locally.
 
@@ -15,7 +15,9 @@ Prerequisities for using:
 
   Existing discord's channel web-hook, example: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 
-  For deploying as customer (not developer) copy existing 2 files to your local windows folder and start TwsPublisher.exe
+
+For deploying as user (not developer) please download the existing 2 files to your local windows folder and start the executable:
+TwsPublisher.exe and TwsPublisher.dll.config (which is a text file)
 
 
 TWS must be configured for using API:
